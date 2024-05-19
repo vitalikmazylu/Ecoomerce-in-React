@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+
+body {
+	-webkit-tap-highlight-color: transparent;
+	-moz-tap-highlight-color: transparent;
+	-ms-tap-highlight-color: transparent;
+	color: #FFF;
+	background: url('./assets/bg.jpg');
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background: #8beaaf62;
+}
+
+.content {
+	flex: 1;
+}
+
+.content-container {
+	width: 90%;
+}
